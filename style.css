@@ -1,0 +1,325 @@
+/*======================= CSS RESET =======================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*======================= CSS Utama ======================= */
+
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-image: url(./assets/warnadaun.png);
+}
+
+.container-center{
+	max-width: 940px !important;
+}
+
+.lapisan {
+	background-color: #3EB061;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.9;
+}
+
+.lapisan2 {
+	background-color: #2A7842;
+	position: fixed;
+	top: 100px;
+	bottom: 100px;
+	left: 100px;
+	right: 100px;
+}
+
+.tutup {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	border-radius: 50%;
+	border: 3px solid #2A7842;
+	background-color: #3EB061;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+}
+.lapisan .lapisan2 .tutup a{
+	text-decoration: none;
+	color: darkgreen;
+}
+
+.lapisan2 img {
+/*	position: absolute;*/
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+
+.tlapisan{
+	margin-top: 60px;
+}
+
+.lapisan2 .tlapisan p{
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 900;
+	color: #2E2E2E;
+}
+
+.kontener {
+	width: 1000px;
+	margin: auto;
+	background-color: #86DAAC;
+}
+
+.kepala {
+	padding: 20px;
+}
+
+.judkep {
+	font-size: 30px;
+	font-family: algerian, serif;
+	font-weight: bold;
+}
+
+.kontener .kepala ul li{
+	display: inline-block;
+	margin-top: 7px;
+	margin-right:3px;
+	padding: 3px;
+}
+
+.kontener .kepala ul li:hover {
+	background-color: #24DC43;
+}
+
+.kepala ul li a {
+	text-decoration: none;
+	color: salmon;
+	font-weight: bold;
+}
+
+.gbr {
+	background-image: url(./assets/gbrit.jpg);
+	height: 300px;
+	background-size: cover;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.isimateri {
+	width: 750px;
+	box-sizing: border-box;
+	float: left;
+	text-align: justify;
+	padding: 20px;
+}
+
+.isimateri p {
+	text-indent: 45px;
+}
+
+.isimateri p.ref {
+	text-indent: 0px;
+	color: darkblue;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.isimateri p.ref a {
+	color: darkblue;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: georgia, serif;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: georgia, serif;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.kilaspenulis{
+	width: 235px;
+	box-sizing: border-box;
+	float: right;
+	padding: 10px;
+	text-align: justify;
+	font: 13px/18px arial;
+}
+
+.kilaspenulis img {
+	width: 80px;
+	float: left;
+	margin-right: 10px;
+}
+
+.kilaspenulis p {
+	margin-bottom: 15px;
+}
+
+.kilaspenulis ul li {
+	font-weight: bold;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.penutup {
+	background-color: #49835C;
+	text-align: center;
+	color: #060A06;
+	padding: 8px;
+	font-size: 13px;
+}
+
+.deskripsi {
+	padding: 20px;
+}
+
+.biodata .deskripsi img {
+	width: 960px;
+	height: 100px;
+	margin-top: -10px;
+}
+
+.deskripsi p {
+	text-indent: 45px;
+	text-align: justify;
+}
+
+h5{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: georgia, serif;
+	margin-top: 20px;
+	margin-bottom: -15px;
+}
+
+.biokiri {
+	width: 480px;
+	box-sizing: border-box;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+.biokanan {
+	width: 480px;
+	box-sizing: border-box;
+	padding: 20px;
+	float: right;
+	box-sizing: border-box;
+}
+
+.satu {
+	
+}
+
+.biokiri .satu img {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.biokiri .dua img {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.biokanan .tiga img {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.biokanan .empat img {
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.dua {
+	margin-top: 20px;
+}
+.tiga {
+	
+}
+.empat {
+	margin-top: 20px;
+}
+
+/*======================= clear fix =======================*/
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
